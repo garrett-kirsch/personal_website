@@ -1,0 +1,10 @@
+name: personal_website
+services:
+    nfs_server:
+        build:
+            context: .
+        stdin_open: true
+        tty: true
+        network_mode: host
+        container_name: personal_website
+        image: personal_website
