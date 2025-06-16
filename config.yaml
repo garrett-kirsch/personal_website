@@ -218,7 +218,6 @@ params:
           enable: false
           content: " "
         content: |
-          As a QA tester at [Pieces for Developers](https://pieces.app),
           I tested for bugs in new releases and focused heavily on the 
           power-user experience. In my time there, I identified several critical 
           bugs and helped polish the app in preparation for a paid model.
@@ -233,8 +232,10 @@ params:
         info:
           enable: false
           content: 
-        # content: |
-        #   I got to 
+        content: |
+          I held recitations and office hours for CIS 2400 Intro to Computer Systems. 
+          It was a bottom-up course covering transistors, logic gates, boolean algebra, assembly, and C.
+          
 
       - job: "Residential Advisor"
         company: "UPenn - CHAS"
@@ -242,6 +243,9 @@ params:
         date: "Aug 2024 - present"
         info:
           enable: false
+        content: |
+          As an RA, I held events for my twenty residents every month under a strict budget. I also had to be "on call" for certain days in the semester - basically, if anything happened,
+          I would be called in to document the event and report it to my supervisor. Since all my kids where Freshmen, it was definitely eventful.
         # featuredLink:
         #   enable: true
         #   url: "https://example.com"
@@ -264,9 +268,9 @@ params:
           url: "https://www.upenn.edu/"
         date: "2023 - now"
         GPA: "3.95"
-        content: |-
-          Extracurricular Activities
-            - I took latin and standard ballroom lessons at PLBD and competed as a beginner at Princeton.
+        # content: |-
+        #   Extracurricular Activities
+        #     - I took latin and standard ballroom lessons at PLBD and competed as a beginner at Princeton.
         featuredLink:
           enable: false
           name: "My academic record"
@@ -279,8 +283,8 @@ params:
         GPA: "5.62"
         content: |-
           Extracurricular Activities
-            - I played on the varsity tennis team for 2 years.
-            - I played the flute in my school's band for several years, in addition to performing solos and duets outside of school.
+            - Varsity tennis player for 2 years.
+            - Flutist for my school's band for several years (as well as solo work).
 
   # Achievements
   achievements:
