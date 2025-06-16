@@ -5,6 +5,8 @@ services:
             context: .
         stdin_open: true
         tty: true
-        network_mode: host
+        ports:
+          - "1313:1313"   # maps host port to container port
         container_name: personal_website
         image: personal_website
+        command: hugo server --bind 0.0.0.0 --baseURL http://localhost:1313 --port 1313
