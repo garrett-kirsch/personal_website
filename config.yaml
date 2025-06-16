@@ -85,7 +85,7 @@ params:
 
   theme:
     disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark" 
 
   font:
     fontSize: 1rem # default: 1rem
