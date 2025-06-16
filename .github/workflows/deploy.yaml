@@ -19,7 +19,7 @@ jobs:
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --name hugo_builder hugo \
-            hugo --baseURL "https://garrett-kirsch.github.io/personal_website/" \
+            hugo --baseURL "https://garrett-kirsch.ceo" \
                   --destination /home/personal_website/public
 
       - name: Copy public/ from builder container
