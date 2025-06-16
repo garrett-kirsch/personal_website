@@ -1,4 +1,4 @@
-baseURL: 'https://garrett-kirsch.github.io/personal-website-garrett/'
+baseURL: 'https://garrett-kirsch.github.io/personal_website/'
 languageCode: "en-us"
 title: "Garrett Kirsch"
 theme: "hugo-profile"
