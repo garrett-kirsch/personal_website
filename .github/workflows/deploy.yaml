@@ -10,29 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: 📥 Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Docker Compose
-        run: docker compose up --build -d
+      - name: 🛠️ Build Docker image (builder stage only)
+        run: docker compose build personal_website
 
-      - name: Get container ID
+      - name: 🚀 Create builder container and run Hugo with correct baseURL
         run: |
-          echo "CONTAINER_ID=$(docker ps -qf "name=personal_website")" >> $GITHUB_ENV
+          docker create --name hugo_builder personal_website
+          docker start -a hugo_builder || true
 
-      - name: Set up baseURL
+          # Run hugo build with GitHub Pages baseURL inside the container
+          docker exec hugo_builder hugo --baseURL "https://garrett-kirsch.github.io/personal_website/" --destination /home/personal_website/public
+
+      - name: 📦 Copy built Hugo site from container
         run: |
-          docker exec ${{ env.CONTAINER_ID }} hugo --baseURL "https://garrett-kirsch.github.io/personal_website/" --destination /usr/share/nginx/html
+          docker cp hugo_builder:/home/personal_website/public ./public
+          docker rm -f hugo_builder
 
-      - name: Copy public/ directory from container
-        run: |
-          docker cp ${{ env.CONTAINER_ID }}:/usr/share/nginx/html ./public
-          docker compose down
-
-      - name: List contents of public/
-        run: ls -R ./public
-
-      - name: Deploy to GitHub Pages
+      - name: 🚢 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

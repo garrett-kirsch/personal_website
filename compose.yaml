@@ -4,6 +4,7 @@ services:
   personal_website:
     build:
       context: .
+      target: builder
     image: personal_website
     container_name: personal_website
     ports:
