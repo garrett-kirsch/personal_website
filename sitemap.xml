@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://garrett-kirsch.github.io/personal-website-garrett/categories/</loc>
+    <loc>https://garrett-kirsch.github.io/personal_website/categories/</loc>
   </url><url>
-    <loc>https://garrett-kirsch.github.io/personal-website-garrett/</loc>
+    <loc>https://garrett-kirsch.github.io/personal_website/</loc>
   </url><url>
-    <loc>https://garrett-kirsch.github.io/personal-website-garrett/tags/</loc>
+    <loc>https://garrett-kirsch.github.io/personal_website/tags/</loc>
   </url>
 </urlset>

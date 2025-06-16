@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Garrett Kirsch</title>
-    <link>https://garrett-kirsch.github.io/personal-website-garrett/categories/</link>
+    <link>https://garrett-kirsch.github.io/personal_website/categories/</link>
     <description>Recent content in Categories on Garrett Kirsch</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://garrett-kirsch.github.io/personal-website-garrett/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://garrett-kirsch.github.io/personal_website/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
