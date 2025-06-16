@@ -182,7 +182,7 @@ params:
       
     skills:
       enable: true
-      title: "Here are some of the languages and tools I've been using:"
+      title: "Here are some of the tools and programming languages I've been using:"
       items:
         - "Docker"
         - "Kubernetes"
@@ -195,6 +195,8 @@ params:
         - "Python"
         - "Kotlin"
         - "OCaml"
+        - "A big smile"
+        - "A firm handshake"
 
   # Experience
   experience:
