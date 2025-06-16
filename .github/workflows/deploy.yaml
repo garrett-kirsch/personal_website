@@ -7,22 +7,22 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:22.04
 
     steps:
-      - name: 📥 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: 🛠️ Build builder image with Docker Compose
+      - name: Build builder image with Docker Compose
         run: docker compose build hugo
 
-      - name: 🚀 Run Hugo build with proper baseURL
+      - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --name hugo_builder hugo \
             hugo --baseURL "https://garrett-kirsch.github.io/personal_website/" \
                   --destination /home/personal_website/public
 
-      - name: 📦 Copy public/ from builder container
+      - name: Copy public/ from builder container
         run: |
           docker cp hugo_builder:/home/personal_website/public ./public
           docker rm -f hugo_builder
@@ -30,8 +30,7 @@ jobs:
       - name: Add .nojekyll
         run: touch ./public/.nojekyll
 
-
-      - name: 🚢 Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
