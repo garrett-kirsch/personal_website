@@ -138,7 +138,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Garrett."
-    subtitle: "I build systems."
+    subtitle: "I design systems."
     content: "A computer engineering with no free time. I am proficient in many areas of hardware and software, but my real love is low-level programming and computer architecture."
     image: /images/Profile_Picture.jpg
     bottomImage:
@@ -244,8 +244,8 @@ params:
         info:
           enable: false
         content: |
-          As an RA, I held events for my twenty residents every month under a strict budget. I also had to be "on call" for certain days in the semester - basically, if anything happened,
-          I would be called in to document the event and report it to my supervisor. Since all my kids where Freshmen, it was definitely eventful.
+          I hold events for my  residents every month under a strict budget. I am also "on call" for several days in the semester - basically, if anything happens
+          I am called in to document the event and report it to my supervisor. Very eventful!
         # featuredLink:
         #   enable: true
         #   url: "https://example.com"
