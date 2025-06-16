@@ -139,7 +139,7 @@ params:
     intro: "Hi, my name is"
     title: "Garrett."
     subtitle: "I design systems."
-    content: "A computer engineering with no free time. I am proficient in many areas of hardware and software, but my real love is low-level programming and computer architecture."
+    content: "A computer engineer with no free time. I am proficient in many areas of hardware and software, but my real love is low-level programming and computer architecture."
     image: /images/Profile_Picture.jpg
     bottomImage:
       enable: true
