@@ -27,10 +27,6 @@ jobs:
           docker cp hugo_builder:/home/personal_website/public ./public
           docker rm -f hugo_builder
 
-      - name: 📂 List contents of public/
-        run: ls -R ./public
-
-
       - name: 🚢 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
