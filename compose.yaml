@@ -1,13 +1,11 @@
 name: personal_website
 
 services:
-  personal_website:
+  hugo:
     build:
       context: .
       target: builder
-    image: personal_website
-    container_name: personal_website
-    ports:
-      - "1313:80"   # Map host:container (Nginx listens on 80)
+    image: personal_website_builder
+    container_name: hugo
     stdin_open: true
     tty: true
