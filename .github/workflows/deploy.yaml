@@ -20,6 +20,10 @@ jobs:
         run: |
           echo "CONTAINER_ID=$(docker ps -qf "name=personal_website")" >> $GITHUB_ENV
 
+      - name: Set up baseURL
+        run: |
+          docker exec ${{ env.CONTAINER_ID }} hugo --baseURL "https://garrett-kirsch.github.io/personal_website/" --destination /usr/share/nginx/html
+
       - name: Copy public/ directory from container
         run: |
           docker cp ${{ env.CONTAINER_ID }}:/usr/share/nginx/html ./public
