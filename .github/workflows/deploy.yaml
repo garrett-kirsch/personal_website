@@ -25,6 +25,9 @@ jobs:
           docker cp ${{ env.CONTAINER_ID }}:/usr/share/nginx/html ./public
           docker compose down
 
+      - name: List contents of public/
+        run: ls -R ./public
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
