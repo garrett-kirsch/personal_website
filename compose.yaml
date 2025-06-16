@@ -1,12 +1,12 @@
 name: personal_website
+
 services:
-    nfs_server:
-        build:
-            context: .
-        stdin_open: true
-        tty: true
-        ports:
-          - "1313:1313"   # maps host port to container port
-        container_name: personal_website
-        image: personal_website
-        command: hugo server --bind 0.0.0.0 --baseURL http://localhost:1313 --port 1313
+  personal_website:
+    build:
+      context: .
+    image: personal_website
+    container_name: personal_website
+    ports:
+      - "1313:80"   # Map host:container (Nginx listens on 80)
+    stdin_open: true
+    tty: true
