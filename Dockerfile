@@ -27,7 +27,9 @@ WORKDIR /home/personal_website/static
 
 COPY ./fav.svg .
 RUN mkdir -p images
-COPY Profile_Picture.jpg ./images/
+
+# Copy images directory from repo to hugo
+COPY ./images/* ./images/
 
 # Final build
 WORKDIR /home/personal_website
