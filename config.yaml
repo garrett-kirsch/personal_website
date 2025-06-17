@@ -314,7 +314,7 @@ params:
     items:
       - title: RISCV Processor
         content: A multicycle, pipelined RISCV processor built using SystemVerilog. Implements an AXI-Lite cache.
-        image: /images/computer.svg
+        image: /images/cpu.jpg
         # featured:
         #   name: Repo
         #   link: https://github.com/garrett-kirsch/CIS_5710
@@ -326,9 +326,9 @@ params:
           - icon: fab fa-github
             url: https://github.com/garrett-kirsch/CIS_5710
         
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: SRAM Core
+        content: A 64-bit SRAM core built and simulated using VLSI tools. Peripheral circuits include: bit precharger, row and column decoders, data bus registers.
+        image: /images/sram.jpg
         featured:
           name: Demo
           link: https://django-converter.herokuapp.com
