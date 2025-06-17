@@ -287,7 +287,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -312,12 +312,12 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: RISCV Processor
+        content: A multicycle, pipelined RISCV processor built using SystemVerilog. Implements an AXI-Lite cache.
         image: /images/projects/profile.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Repo
+          link: https://github.com/garrett-kirsch/CIS_5710
         badges:
           - "Hugo"
           - "Bootstrap"
