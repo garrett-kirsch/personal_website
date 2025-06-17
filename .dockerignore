@@ -1,0 +1,6 @@
+Dockerfile
+.dockerignore
+.gitignore
+compose.yaml
+init.sh
+*.md
