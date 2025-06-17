@@ -313,7 +313,7 @@ params:
     # title: "Custom Name"
     items:
       - title: RISCV Processor
-        content: A multicycle, pipelined RISCV processor built using SystemVerilog. Implements an AXI-Lite cache.
+        content: A multicycle, pipelined RISCV processor built using SystemVerilog. Implements a cache with the Arm AXI4-Lite protocol for data and instruction memory.
         image: /images/cpu.jpg
         # featured:
         #   name: Repo
@@ -327,14 +327,15 @@ params:
             url: https://github.com/garrett-kirsch/CIS_5710
         
       - title: SRAM Core
-        content: A 64-bit SRAM core built and simulated using VLSI tools. Peripheral circuits include bit prechargers, row and column decoders, data bus registers.
+        content: A 64-bit SRAM core built from the ground-up with VLSI tools and simulated using Ngspice. Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, data bus registers.
         image: /images/sram.jpg
         featured:
           name: Demo
           link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "VLSI"
+          - "Digital IC"
+          - "SPICE"
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
