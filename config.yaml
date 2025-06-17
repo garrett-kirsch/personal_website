@@ -314,7 +314,7 @@ params:
     items:
       - title: RISCV Processor
         content: A multicycle, pipelined RISCV processor built using SystemVerilog. Implements an AXI-Lite cache.
-        image: fab fa-computer
+        image: /images/computer.svg
         # featured:
         #   name: Repo
         #   link: https://github.com/garrett-kirsch/CIS_5710
