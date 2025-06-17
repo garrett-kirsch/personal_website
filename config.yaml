@@ -341,7 +341,7 @@ params:
         #     url: https://github.com/gurusabarish/converter
 
       - title: Metal Detector
-        content: A custom metal detector using a PCB that I routed (not my best work) and soldered (when I paid for my mistakes) myself. Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
+        content: A custom metal detector using a PCB that I routed (not my best work), soldered (when I paid for my mistakes), and tuned myself. Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
         image: /images/metal_detector_pcb.jpg
         featured:
           name: Report
@@ -350,9 +350,12 @@ params:
           - "Analog IC"
           - "PCB Layout"
           - "Soldering"
+          - "SPICE"
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/HugoProfileV2
+      - title: 8-Bit Ripple-Carry Adder
+        content: An RCA designed from scratch using VLSI tools and simulated using Ngspice. Tested for correctness and optimized for performance.
 
   #Contact
   contact:
