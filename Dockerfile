@@ -43,5 +43,3 @@ COPY --from=builder /home/personal_website/public /usr/share/nginx/html
 
 # Expose the default HTTP port
 EXPOSE 80
-
-# No CMD needed — nginx image handles it

@@ -84,8 +84,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "dark" 
 
   font:
     fontSize: 1rem # default: 1rem
@@ -139,7 +139,7 @@ params:
     intro: "Hi, my name is"
     title: "Garrett."
     subtitle: "I design systems."
-    content: "A computer engineering with no free time. I am proficient in many areas of hardware and software, but my real love is low-level programming and computer architecture."
+    content: "A computer engineer with no free time. I am proficient in many areas of hardware and software, but my real love is low-level programming and computer architecture."
     image: /images/Profile_Picture.jpg
     bottomImage:
       enable: true
@@ -266,8 +266,7 @@ params:
         school:
           name: "University of Pennsylvania, School of Enginearing and Applied Sciences"
           url: "https://www.upenn.edu/"
-        date: "2023 - now"
-        GPA: "3.95"
+        date: "2023 - now"        
         # content: |-
         #   Extracurricular Activities
         #     - I took latin and standard ballroom lessons at PLBD and competed as a beginner at Princeton.
@@ -280,7 +279,6 @@ params:
           name: "Walnut Hills High School"
           url: "http://www.walnuthillseagles.com/"
         date: "2019-2023"
-        GPA: "5.62"
         content: |-
           Extracurricular Activities
             - Varsity tennis player for 2 years.
