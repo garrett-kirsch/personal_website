@@ -32,7 +32,7 @@ RUN mkdir -p images
 COPY ./images/* ./images/
 
 # Copy my favorite font-awesome images to /images
-RUN cp /themes/hugo-profile/static/fontawesome-6/svgs/solid/computer.svg /images/
+# RUN cp /themes/hugo-profile/static/fontawesome-6/svgs/solid/computer.svg /images/
 
 # Final build
 WORKDIR /home/personal_website
