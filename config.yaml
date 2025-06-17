@@ -340,9 +340,9 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Metal Detector
+        content: A custom metal detector using a PCB routed and soldered by myself. Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
+        image: /images/metal_detector_pcb.jpg
         featured:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
