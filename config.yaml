@@ -33,7 +33,7 @@ markup:
 
 Menus:
   main:
-    - identifier: list
+    - identifier: gallery
       name: Friends
       title: Friends of Mine
       url: /friends
