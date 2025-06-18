@@ -3,4 +3,6 @@ Dockerfile
 .gitignore
 compose.yaml
 init.sh
-*.md
+README.md
+TODO.md
+.github
