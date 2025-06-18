@@ -36,7 +36,7 @@ Menus:
     - identifier: friends
       name: Friends
       title: Friends of Mine
-      url: /friends
+      url: /friends/
       weight: 1
     # - identifier: gallery
     #   name: Gallery
@@ -404,18 +404,18 @@ params:
           - "Digital IC"
           - "SPICE"
 
-  friends:
-    enable: true
-    title: "My Friends"
-    items:
-      - name: "Alice Johnson"
-        url: "https://alice.dev"
-        content: "Full-stack developer and coffee enthusiast"
-        image: "/images/friends/alice.jpg"
-      - name: "Bob Smith"
-        url: "https://bob.codes"
-        content: "AI researcher and gamer"
-        image: "/images/friends/bob.jpg"
+  # friends:
+  #   enable: true
+  #   title: "My Friends"
+  #   items:
+  #     - name: "Alice Johnson"
+  #       url: "https://alice.dev"
+  #       content: "Full-stack developer and coffee enthusiast"
+  #       image: "/images/friends/alice.jpg"
+  #     - name: "Bob Smith"
+  #       url: "https://bob.codes"
+  #       content: "AI researcher and gamer"
+  #       image: "/images/friends/bob.jpg"
 
 
   #Contact
