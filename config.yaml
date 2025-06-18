@@ -363,10 +363,10 @@ params:
         content: |
           Embedded systems project that takes in an input melody and outputs the same melody with a number of half-step shifts determined by the user. 
           Includes an LCD screen that displays the shifted note. Programmed with bare metal C on the ATMega328PB.
-        image: /images
-        # featured:
-        #   name: Website
-        #   link: 
+        image: /images/piano.JPEG
+        featured:
+          name: Demo
+          link: https://drive.google.com/file/d/1ngGfAtsrGlymLhpcTdSK29lmTKguykDP/view?usp=sharing
         badges:
           - "Embedded Systems"
           - "Bare Metal C"
