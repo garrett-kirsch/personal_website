@@ -5,22 +5,7 @@
     <link>https://garrett-kirsch.ceo/</link>
     <description>Recent content on Garrett Kirsch</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate><atom:link href="https://garrett-kirsch.ceo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Render Math With Mathjax</title>
-      <link>https://garrett-kirsch.ceo/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      
-      <guid>https://garrett-kirsch.ceo/math/</guid>
-      <description>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
-Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.
-Then, use $$ ... $$ on a line by itself to render a block equation:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
-The raw version is:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Write in-line equations with \\( .</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://garrett-kirsch.ceo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Gallery</title>
       <link>https://garrett-kirsch.ceo/gallery/</link>
@@ -28,6 +13,15 @@ $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &
       
       <guid>https://garrett-kirsch.ceo/gallery/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Friends</title>
+      <link>https://garrett-kirsch.ceo/friends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://garrett-kirsch.ceo/friends/</guid>
+      <description>Check out some of the amazing people I know!</description>
     </item>
     
   </channel>
