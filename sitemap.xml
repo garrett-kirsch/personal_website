@@ -2,13 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://garrett-kirsch.ceo/tags/example/</loc>
+    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>https://garrett-kirsch.ceo/</loc>
+    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>https://garrett-kirsch.ceo/tags/markdown-syntax/</loc>
+    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>https://garrett-kirsch.ceo/tags/mathjax/</loc>
+    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>https://garrett-kirsch.ceo/math/</loc>
+    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>https://garrett-kirsch.ceo/tags/</loc>
+    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+  </url><url>
     <loc>https://garrett-kirsch.ceo/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
   </url><url>
     <loc>https://garrett-kirsch.ceo/categories/</loc>
-  </url><url>
-    <loc>https://garrett-kirsch.ceo/</loc>
-  </url><url>
-    <loc>https://garrett-kirsch.ceo/tags/</loc>
   </url>
 </urlset>
