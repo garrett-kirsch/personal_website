@@ -333,7 +333,7 @@ params:
         content: |
           A multicycle, pipelined RISCV processor built using SystemVerilog. 
           Implements a cache with the Arm AXI4-Lite protocol for data and instruction memory.
-        image: /images/cpu.jpg
+        image: /images/projects/cpu.jpg
         # featured:
         #   name: Repo
         #   link: https://github.com/garrett-kirsch/CIS_5710
@@ -349,7 +349,7 @@ params:
         content: |
           A 64-bit SRAM core built from the ground-up with VLSI tools and simulated using Ngspice. 
           Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and data bus registers.
-        image: /images/sram.jpg
+        image: /images/projects/sram.jpg
         featured:
           name: Report
           link: https://docs.google.com/document/d/1qUxATIpc8Za0tYuLL_VTnB8aUX0jMXnSpnShS4VQIMk/edit?usp=sharing
@@ -365,7 +365,7 @@ params:
         content: |
           Embedded systems project that takes in an input melody and outputs the same melody with a number of half-step shifts determined by the user. 
           Includes an LCD screen that displays the shifted note. Programmed with bare metal C on the ATMega328PB.
-        image: /images/piano.JPEG
+        image: /images/projects/piano.JPEG
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1ngGfAtsrGlymLhpcTdSK29lmTKguykDP/view?usp=sharing
@@ -381,7 +381,7 @@ params:
         content: |
           A custom metal detector using a PCB that I routed (not my best work), soldered (when I paid for my mistakes), and tuned myself. 
           Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
-        image: /images/metal_detector_pcb.jpg
+        image: /images/projects/metal_detector_pcb.jpg
         featured:
           name: Report
           link: https://docs.google.com/document/d/1Ev00fLFrK_dnF9JuYy6zgi82zXWfDipZKQnROQgLdxA/edit?usp=sharing
@@ -395,7 +395,7 @@ params:
         #     url: https://github.com/gurusabarish/HugoProfileV2
       - title: 8-Bit Ripple-Carry Adder
         content: An 8b RCA designed from scratch using VLSI tools and simulated using Ngspice. Tested for correctness and optimized for performance. 
-        image: /images/half_adder.png
+        image: /images/projects/half_adder.png
         featured:
           name: Report
           link: https://docs.google.com/document/d/1jCyHxDtUqd9ptm8j6LoAcbKIrH7rGucXQMwGSG8OJ2g/edit?usp=sharing

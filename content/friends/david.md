@@ -1,7 +1,7 @@
 ---
-title: "Alice Johnson"
+title: "David Constantinescu"
 summary: "Full-stack developer and coffee enthusiast"
-image: "/images/friends/alice.jpg"
+image: "/images/friends/david.jpg"
 badges: ["Developer", "Open Source"]
 links:
   - icon: "fab fa-github"
