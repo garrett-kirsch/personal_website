@@ -355,7 +355,8 @@ params:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/HugoProfileV2
       - title: 8-Bit Ripple-Carry Adder
-        content: An RCA designed from scratch using VLSI tools and simulated using Ngspice. Tested for correctness and optimized for performance.
+        content: An 8b RCA designed from scratch using VLSI tools and simulated using Ngspice. Tested for correctness and optimized for performance. 
+        image: /images/half_adder.svg
 
   #Contact
   contact:
