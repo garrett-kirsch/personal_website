@@ -177,7 +177,7 @@ params:
       I am a computer engineering student at UPenn interested in chip design and computer systems. My coursework has been split
       between hardware and software, and I love working in the intersections between the two (although I am a little scarred by embedded systems). 
       While there are many late nights hunched over a lab table or scanning through waveforms, it is always worth it when I get to see
-      my creatinons come to life.
+      my creations come to life.
 
       I am currently working full-time under Professors Jinf Li and Andre DeHon in their [CyberSavvy Lab](https://cybersavvy.seas.upenn.edu/), 
       where I am setting up cloud communication between our FPGAs using Docker and Kubernetes. 
@@ -193,7 +193,8 @@ params:
         - "SPICE"
         - "Electric VLSI"
         - "git"
-        - "Bash/UNIX"
+        - "Bash scripting"
+        - "Linux CLI"
         - "Python"
         - "Kotlin"
         - "OCaml"
@@ -206,6 +207,14 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - job: "Research Assistant"
+        company: "CyberSavvy"
+        companyUrl: "https://cybersavvy.seas.upenn.edu/"
+        date: "May 2025 - present"
+        content: |
+          Setting up cloud communication between FPGAs for easy deployment and updates 
+          using Docker and Kubernetes.
+
       - job: "Quality Assurance and Developer Relations Intern"
         company: "Pieces for Developers"
         companyUrl: "https://pieces.app"
