@@ -204,7 +204,7 @@ params:
   # Experience
   experience:
     enable: true
-    title: "Professional Experience"
+    title: "Work Experience"
     index: false
     items:
       - job: "Research Assistant"
@@ -219,8 +219,9 @@ params:
           enable: false
           content: " "
         content: |
-          Setting up cloud communication between FPGAs for easy deployment and updates 
-          using Docker and Kubernetes.
+          Setting up cloud communication between FPGAs for easy deployment and updates. 
+          Extensive use of Docker and Kubernetes to containerize and manage applications. 
+          Setting up systems such as NFS servers, QEMU VMs, and Tio device monitors.
 
       - job: "Quality Assurance and Developer Relations Intern"
         company: "Pieces for Developers"
@@ -281,7 +282,7 @@ params:
       - title: "Bachelor of Science in Engineering"
         school:
           name: "University of Pennsylvania, School of Enginearing and Applied Sciences"
-          url: "https://www.upenn.edu/"
+          url: "https://www.seas.upenn.edu/"
         date: "2023 - now"        
         content: |-
           Extracurricular Activities
@@ -299,6 +300,7 @@ params:
           Extracurricular Activities
             - Varsity tennis player for 2 years.
             - Flutist for my school's band for several years (as well as solo work).
+            - Volunteer math tutor for local 8th graders.
 
   # Achievements
   achievements:
