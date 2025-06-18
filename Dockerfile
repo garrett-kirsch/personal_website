@@ -31,6 +31,9 @@ RUN mkdir -p images
 # Copy images directory from repo to hugo
 COPY ./images/* ./images/
 
+# Copy gallery content
+COPy ./content/* ./content
+
 # Copy my favorite font-awesome images to /images
 # RUN cp /themes/hugo-profile/static/fontawesome-6/svgs/solid/computer.svg /images/
 
