@@ -15,14 +15,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Friends</title>
-      <link>https://garrett-kirsch.ceo/friends/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://garrett-kirsch.ceo/friends/</guid>
-      <description>Check out some of the amazing people I know!</description>
-    </item>
-    
   </channel>
 </rss>
