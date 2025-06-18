@@ -33,16 +33,16 @@ markup:
 
 Menus:
   main:
-    - identifier: Friends
-      name: Friends
-      title: Friends of Mine
-      url: /friends
-      weight: 1
-    # - identifier: gallery
-    #   name: Gallery
-    #   title: Blog posts
-    #   url: /gallery
-    #   weight: 2
+    # - identifier: friends
+    #   name: Friends
+    #   title: Friends of Mine
+    #   url: /friends
+    #   weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
