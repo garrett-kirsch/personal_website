@@ -15,6 +15,9 @@ RUN hugo new site personal_website --format="yaml"
 # Move into Hugo site directory
 WORKDIR /home/personal_website
 
+# Copy gallery content
+COPy ./content/* ./content
+
 # Add configuration and theme
 COPY ./config.yaml .
 
@@ -30,9 +33,6 @@ RUN mkdir -p images
 
 # Copy images directory from repo to hugo
 COPY ./images/* ./images/
-
-# Copy gallery content
-COPy ./content/* ./content
 
 # Copy my favorite font-awesome images to /images
 # RUN cp /themes/hugo-profile/static/fontawesome-6/svgs/solid/computer.svg /images/
