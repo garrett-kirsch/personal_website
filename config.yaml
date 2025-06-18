@@ -328,7 +328,9 @@ params:
     # title: "Custom Name"
     items:
       - title: RISCV Processor
-        content: A multicycle, pipelined RISCV processor built using SystemVerilog. Implements a cache with the Arm AXI4-Lite protocol for data and instruction memory.
+        content: |
+          A multicycle, pipelined RISCV processor built using SystemVerilog. 
+          Implements a cache with the Arm AXI4-Lite protocol for data and instruction memory.
         image: /images/cpu.jpg
         # featured:
         #   name: Repo
@@ -342,7 +344,9 @@ params:
             url: https://github.com/garrett-kirsch/CIS_5710
         
       - title: SRAM Core
-        content: A 64-bit SRAM core built from the ground-up with VLSI tools and simulated using Ngspice. Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and data bus registers.
+        content: |
+          A 64-bit SRAM core built from the ground-up with VLSI tools and simulated using Ngspice. 
+          Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and data bus registers.
         image: /images/sram.jpg
         featured:
           name: Report
@@ -355,8 +359,26 @@ params:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
 
+      - title: Music Transposer
+        content: |
+          Embedded systems project that takes in an input melody and outputs the same melody with a number of half-step shifts determined by the user. 
+          Includes an LCD screen that displays the shifted note. Programmed with bare metal C on the ATMega328PB.
+        image: /images
+        # featured:
+        #   name: Website
+        #   link: 
+        badges:
+          - "Embedded Systems"
+          - "Bare Metal C"
+          - "Low Level Graphics"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/upenn-embedded/final-project-s25-the-redeem-team
+
       - title: Metal Detector
-        content: A custom metal detector using a PCB that I routed (not my best work), soldered (when I paid for my mistakes), and tuned myself. Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
+        content: |
+          A custom metal detector using a PCB that I routed (not my best work), soldered (when I paid for my mistakes), and tuned myself. 
+          Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
         image: /images/metal_detector_pcb.jpg
         featured:
           name: Report
