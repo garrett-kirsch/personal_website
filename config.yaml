@@ -204,13 +204,20 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Professional Experience"
     index: false
     items:
       - job: "Research Assistant"
         company: "CyberSavvy"
         companyUrl: "https://cybersavvy.seas.upenn.edu/"
         date: "May 2025 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+          content: " "
         content: |
           Setting up cloud communication between FPGAs for easy deployment and updates 
           using Docker and Kubernetes.
