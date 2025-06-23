@@ -24,6 +24,27 @@
     border: none !important;
 }
 
+/* Fix text readability inside card */
+#friends .card-body,
+#friends .card-title,
+#friends .card-text {
+    color: var(--text-color) !important;
+}
+
+#friends .card-title {
+    font-weight: 600;
+    color: var(--text-color) !important;
+}
+
+#friends .card-text {
+    color: var(--text-secondary-color) !important;
+}
+
+/* Center cards if only one */
+#friends .row {
+    justify-content: center;
+}
+
 #friends .card:hover {
     box-shadow: 0 0 11px rgb(15 80 100 / 20%);
     transition: transform 0.3s;
@@ -31,7 +52,6 @@
 }
 
 #friends .card .card-head {
-    -o-object-fit: cover;
     object-fit: cover;
     overflow: hidden;
     border-top-left-radius: 1rem;
@@ -39,9 +59,12 @@
     border: none !important;
 }
 
-#friends .card .card-footer {
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+#friends .card-img-top {
+    transition: transform 0.3s;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+    height: auto;
 }
 
 #friends .card:hover .card-img-top {
@@ -49,8 +72,9 @@
     transition: all 0.3s ease-out;
 }
 
-#friends .card-img-top {
-    transition: transform 0.3s;
+#friends .card .card-footer {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 #friends .float-end .btn {
