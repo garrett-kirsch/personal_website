@@ -1,7 +1,7 @@
 ---
 title: "Eric Li"
 summary: "Diabolical Electical Engineer"
-image: "/images/friends/eric.JPG"
+image: "/images/friends/eric.jpg"
 badges: ["Electrical Engineer", "President of Penn Architects"]
 links:
   - icon: "fab fa-github"
