@@ -6,7 +6,7 @@ badges: ["Developer", "AI Guy", "Party Animal", "Charming", "Handsome"]
 links:
   - icon: "fab fa-github"
     url: "https://github.com/alice"
-  - icon: "fas fa-globe"
+  - icon: "fab fa-linkedin"
     url: "https://alice.dev"
 date: 2025-06-18
 ---
