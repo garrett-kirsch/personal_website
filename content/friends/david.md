@@ -7,6 +7,6 @@ links:
   - icon: "fab fa-github"
     url: "https://github.com/alice"
   - icon: "fab fa-linkedin"
-    url: "https://alice.dev"
+    url: "https://www.linkedin.com/in/constantinescu-david-058b41249"
 date: 2025-06-18
 ---

@@ -5,7 +5,7 @@ image: "/images/friends/eric.jpg"
 badges: ["Electrical Engineer", "President of Penn Architects"]
 links:
   - icon: "fab fa-github"
-    url: "https://github.com/alice"
+    url: "https://github.com/"
   - icon: "fab fa-linkedin"
     url: "https://www.linkedin.com/in/eric-li-eecs/"
 date: 2025-06-23
