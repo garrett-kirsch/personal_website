@@ -1,7 +1,7 @@
 ---
 title: "David Constantinescu"
 summary: "Genius Romanian AI Engineer"
-image: "/images/friends/david.jpg"
+image: "/images/friends/david.JPG"
 badges: ["Developer", "AI Guy", "Party Animal", "Charming", "Handsome"]
 links:
   - icon: "fab fa-github"
