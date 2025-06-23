@@ -1,8 +1,8 @@
 ---
 title: "David Constantinescu"
-summary: "Full-stack developer and coffee enthusiast"
+summary: "Genius Romanian AI Engineer"
 image: "/images/friends/david.jpg"
-badges: ["Developer", "Open Source"]
+badges: ["Developer", "AI Guy", "Party Animal", "Charming", "Handsome"]
 links:
   - icon: "fab fa-github"
     url: "https://github.com/alice"
