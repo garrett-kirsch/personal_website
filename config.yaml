@@ -239,8 +239,8 @@ params:
           enable: false
           content: " "
         content: |
-          I tested for bugs in new releases and focused heavily on the 
-          power-user experience. In my time there, I identified several critical 
+          Testing for bugs in new releases and focusing heavily on the 
+          power-user experience. Identified several critical 
           bugs and helped polish the app in preparation for a paid model.
         
       - job: "Teaching Assistant"
@@ -254,8 +254,9 @@ params:
           enable: false
           content: 
         content: |
-          I held recitations and office hours for CIS 2400 Intro to Computer Systems. 
-          It was a bottom-up course covering transistors, logic gates, boolean algebra, assembly, and C.
+          Held recitations and office hours for CIS 2400 Intro to Computer Systems, 
+          a bottom-up course covering transistors, logic gates, boolean algebra, assembly, and C. 
+          Created an additional conceptual office hours that I taught during the weekend.
           
 
       - job: "Residential Advisor"
@@ -265,7 +266,7 @@ params:
         info:
           enable: false
         content: |
-          I hold events for my residents every month under a strict budget. I am also "on call" for several days in the semester - basically, if anything happens
+          Hold events for my residents every month under a strict budget. "On call" for several days in the semester - basically, if anything happens
           I am called in to document the event and report it to my supervisor. Very eventful!
         # featuredLink:
         #   enable: true
@@ -287,7 +288,7 @@ params:
         school:
           name: "University of Pennsylvania, School of Enginearing and Applied Sciences"
           url: "https://www.seas.upenn.edu/"
-        date: "2023 - now"        
+        date: "2023 - present"        
         content: |-
           Extracurricular Activities
             - Penn Latin and Ballroom Dance
