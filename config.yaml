@@ -147,7 +147,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/garrett-kirsch-resume.pdf"
       download: true
       newPage: false
     socialLinks:
