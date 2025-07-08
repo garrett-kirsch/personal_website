@@ -168,27 +168,38 @@ params:
     content: |-
       **Who I am:**
       
-      I was born and raised in Cincinnati, Ohio. While I love experiencing new places, my heart and home lives in Cincy. 
-      My family is fun and very loud, the kind of people that smother you with love and bring giant cardboard cutouts of your 
-      face to your graduation. For my sister's, we settled for cowbells and pom-poms, although she had to cut me off
-      a few times because my screaming was too loud. Maybe I take after my family more than I thought?
-
-      Regardless, I am not one to hold my feelings back. If I care about someone, I do my best to let them know that - especially if I can 
-      embarrass myself along the way. For better or worse, shame is not in my vocabulary. 
+      I was born and raised in Cincinnati, Ohio, a city I’m proud to call home even
+      as I embrace opportunities to experience new places and cultures. My journey
+      has been shaped by a passion for travel, sports, and music, each contributing
+      to my curiosity, adaptability, and collaborative spirit. Whether navigating a new
+      city, engaging with diverse teams, or playing music with friends, these
+      experiences have deepened my ability to connect with people from all walks
+      of life.
+      These interests outside of engineering have broadened my perspective,
+      encouraging creative problem-solving and a balanced approach to my
+      professional work. I’m known for my enthusiasm, open communication, and
+      willingness to jump into new challenges with energy and positivity. At the core,
+      I believe in bringing authenticity and a sense of fun to every
+      environment—qualities that, I’ve found, help build strong, effective teams and
+      lasting professional relationships. 
 
       **What I Do:**
 
-      I am a computer engineering student at UPenn interested in chip design and computer systems. My coursework has been split
-      between hardware and software, and I love working in the intersections between the two. 
-      While there are many late nights hunched over a lab table or scanning through waveforms, it is always worth it when I get to see
-      my creations come to life.
+      I am a computer engineering student at the University of Pennsylvania with a
+      strong interest in chip design and computer systems. My academic
+      background bridges both hardware and software, and I am particularly
+      passionate about working at the intersection of these fields. Although my
+      studies often involve late nights troubleshooting in the lab or analyzing
+      waveforms, the experience of bringing innovative projects to life continually
+      fuels my desire to push boundaries and contribute new ideas to the field.
 
-      I am currently working full-time under Professors Jinf Li and Andre DeHon in their [CyberSavvy Lab](https://cybersavvy.seas.upenn.edu/), 
-      where I am setting up cloud communication between our FPGAs using Docker and Kubernetes. 
+      I am currently working full-time in the [CyberSavvy Lab](https://cybersavvy.seas.upenn.edu/) under Professors Jinf
+      Li and Andre DeHon, where I am responsible for turning our FPGAs into cloud resources 
+      using Docker and Kubernetes.
       
     skills:
       enable: true
-      title: "Here are some of the tools and programming languages I've been using:"
+      title: "Tools and Programming Languages:"
       items:
         - "Docker"
         - "Kubernetes"
@@ -202,8 +213,7 @@ params:
         - "Python"
         - "Kotlin"
         - "OCaml"
-        - "A big smile"
-        - "A firm handshake"
+        - "(And always) a positive attitude and a firm handshake"
 
   # Experience
   experience:
@@ -286,7 +296,7 @@ params:
     items:
       - title: "Bachelor of Science in Engineering"
         school:
-          name: "University of Pennsylvania, School of Enginearing and Applied Sciences"
+          name: "University of Pennsylvania, School of Engineering and Applied Sciences"
           url: "https://www.seas.upenn.edu/"
         date: "2023 - present"        
         content: |-
@@ -428,7 +438,7 @@ params:
     enable: true
     # title: "Custom Name"
     # content: "TO-DO" 
-    btnName: Email me!
+    btnName: Email me
     btnLink: mailto:garrettokirsch@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
