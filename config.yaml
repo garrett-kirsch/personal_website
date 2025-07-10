@@ -148,8 +148,8 @@ params:
       enable: true
       name: "Resume"
       url: "/garrett-kirsch-resume.pdf"
-      download: true
-      newPage: false
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
