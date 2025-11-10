@@ -3,6 +3,7 @@ title: "Seema Jahagirdar"
 summary: "Incredibly Talented Data Scientist"
 image: "/images/friends/seema.jpg"
 badges: ["Data Scientist", "OPTX", "Professional Badass"]
+tags: []
 links:
   - icon: "fab fa-github"
     url: "https://github.com/alice"
