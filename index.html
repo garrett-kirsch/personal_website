@@ -127,13 +127,16 @@ Garrett Kirsch
 
     switch (localStorageValue) {
         case "dark":
+            document.documentElement.classList.add('dark');
             document.body.classList.add('dark');
             break;
         case "light":
             document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
             break;
         default:
             if (mediaQuery) {
+                document.documentElement.classList.add('dark');
                 document.body.classList.add('dark');
             }
             break;
@@ -673,187 +676,130 @@ using Docker and Kubernetes.</p>
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-8 col-lg-8 py-5">
                 <div class="experience-container px-3 pt-2">
-                    <ul class="nav nav-pills mb-3 bg-transparent primary-font" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills mb-2 bg-transparent primary-font" id="pills-tab" role="tablist">
                         
+                            
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link active bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='cybersavvy--tab'
+                                    data-bs-target='#pills-cybersavvy-'
+                                    aria-controls='cybersavvy-'
+                                >
+                                    CyberSavvy
+                                </div>
+                            </li>
                         
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link active bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='CyberSavvy-May-2025---present-tab'
-                                data-bs-target='#pills-CyberSavvy-May-2025---present'
-                                aria-controls='CyberSavvy-May-2025---present' 
-                            >
-                                CyberSavvy
-                            </div>
-                        </li>
+                            
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='pieces-for-developers--tab'
+                                    data-bs-target='#pills-pieces-for-developers-'
+                                    aria-controls='pieces-for-developers-'
+                                >
+                                    Pieces for Developers
+                                </div>
+                            </li>
                         
+                            
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='upenn-seas--tab'
+                                    data-bs-target='#pills-upenn-seas-'
+                                    aria-controls='upenn-seas-'
+                                >
+                                    UPenn - SEAS
+                                </div>
+                            </li>
                         
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Pieces-for-Developers-May-2024---Aug-2024-tab'
-                                data-bs-target='#pills-Pieces-for-Developers-May-2024---Aug-2024' 
-                                aria-controls='Pieces-for-Developers-May-2024---Aug-2024'
-                            >
-                                Pieces for Developers
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='UPenn---SEAS-Aug-2024---Dec-2024-tab'
-                                data-bs-target='#pills-UPenn---SEAS-Aug-2024---Dec-2024' 
-                                aria-controls='UPenn---SEAS-Aug-2024---Dec-2024'
-                            >
-                                UPenn - SEAS
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='UPenn---CHAS-Aug-2024---present-tab'
-                                data-bs-target='#pills-UPenn---CHAS-Aug-2024---present' 
-                                aria-controls='UPenn---CHAS-Aug-2024---present'
-                            >
-                                UPenn - CHAS
-                            </div>
-                        </li>
-                        
+                            
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='upenn-chas--tab'
+                                    data-bs-target='#pills-upenn-chas-'
+                                    aria-controls='upenn-chas-'
+                                >
+                                    UPenn - CHAS
+                                </div>
+                            </li>
                         
                     </ul>
-                    <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
-                        
-                        
-                        <div 
-                            class="tab-pane fade show active bg-transparent" 
-                            role="tabpanel"
-                            id='pills-CyberSavvy-May-2025---present'
-                            aria-labelledby='pills-CyberSavvy-May-2025---present-tab'
-                        >
-                            <div>
-                                <span class="h4">Research Assistant</span>
-                                <small>-</small>
-                                <a href="https://cybersavvy.seas.upenn.edu/" target="_blank">CyberSavvy</a>
-                                <div class="pb-1">
-                                    <small>May 2025 - present</small>
-                                    
-                                </div>
 
+                    <div class="tab-content pb-3 bg-transparent primary-font" id="pills-tabContent">
+                        
+                            
+                            
+                            
+                            
+                            <div
+                                class="tab-pane fade bg-transparent show active"
+                                role="tabpanel"
+                                id='pills-cybersavvy-'
+                                aria-labelledby='cybersavvy--tab'
+                            >
                                 
                             </div>
-
-                            Setting up cloud communication between FPGAs for easy deployment and updates.
-Extensive use of Docker and Kubernetes to containerize and manage applications.
-Setting up systems such as NFS servers, QEMU VMs, and Tio device monitors.
-                        </div>
                         
                         
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Pieces-for-Developers-May-2024---Aug-2024'
-                            aria-labelledby='pills-Pieces-for-Developers-May-2024---Aug-2024-tab'
-                        >
-                            <div>
-                                <span class="h4">Quality Assurance and Developer Relations Intern</span>
-                                <small>-</small>
-                                <a href="https://pieces.app" target="_blank">Pieces for Developers</a>
-                                
-                                <div class="pb-1">
-                                    <small>May 2024 - Aug 2024</small>
-                                    
-                                </div>
-                                
+                            
+                            
+                            
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-pieces-for-developers-'
+                                aria-labelledby='pieces-for-developers--tab'
+                            >
                                 
                             </div>
-
-                            <div class="pt-2">
-                                Testing for bugs in new releases and focusing heavily on the
-power-user experience. Identified several critical
-bugs and helped polish the app in preparation for a paid model.
-                            </div>
-                        </div>
                         
                         
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-UPenn---SEAS-Aug-2024---Dec-2024'
-                            aria-labelledby='pills-UPenn---SEAS-Aug-2024---Dec-2024-tab'
-                        >
-                            <div>
-                                <span class="h4">Teaching Assistant</span>
-                                <small>-</small>
-                                <a href="https://www.upenn.edu/" target="_blank">UPenn - SEAS</a>
-                                
-                                <div class="pb-1">
-                                    <small>Aug 2024 - Dec 2024</small>
-                                    
-                                </div>
-                                
-                                
-                                <div class="py-2 featuredLink">
-                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href=https://www.seas.upenn.edu/~cis2400/24fa/ target="_blank">
-                                        Featured Link 
-                                    </a>
-                                </div>
+                            
+                            
+                            
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-upenn-seas-'
+                                aria-labelledby='upenn-seas--tab'
+                            >
                                 
                             </div>
-
-                            <div class="pt-2">
-                                Held recitations and office hours for CIS 2400 Intro to Computer Systems,
-a bottom-up course covering transistors, logic gates, boolean algebra, assembly, and C.
-Created an additional conceptual office hours that I taught during the weekend.
-                            </div>
-                        </div>
                         
                         
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-UPenn---CHAS-Aug-2024---present'
-                            aria-labelledby='pills-UPenn---CHAS-Aug-2024---present-tab'
-                        >
-                            <div>
-                                <span class="h4">Residential Advisor</span>
-                                <small>-</small>
-                                <a href="https://www.upenn.edu/" target="_blank">UPenn - CHAS</a>
-                                
-                                <div class="pb-1">
-                                    <small>Aug 2024 - present</small>
-                                    
-                                </div>
-                                
+                            
+                            
+                            
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-upenn-chas-'
+                                aria-labelledby='upenn-chas--tab'
+                            >
                                 
                             </div>
-
-                            <div class="pt-2">
-                                Hold events for my residents every month under a strict budget. &ldquo;On call&rdquo; for several days in the semester - basically, if anything happens
-I am called in to document the event and report it to my supervisor. Very eventful!
-                            </div>
-                        </div>
                         
                         
                     </div>
@@ -1199,7 +1145,7 @@ Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp fo
 <div class="text-center pt-2">
     
     <span class="px-1">
-        <a href="https://github.com/garrett-kirsch" aria-label="github">
+        <a href="https://github.com/garrett-kirsch" target="_blank" aria-label="github">
             <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
                 <path id="footer-socialNetworks-github-svg-path"
                     d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
@@ -1226,7 +1172,7 @@ Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp fo
 
     
     <span class="px-1">
-        <a href="https://www.linkedin.com/in/garrett-kirsch/" aria-label="linkedin">
+        <a href="https://www.linkedin.com/in/garrett-kirsch/" target="_blank" aria-label="linkedin">
             <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
                 viewBox="0 0 512 512">
                 <rect width="512" height="512" fill="#0077b5" rx="15%" />
@@ -1272,6 +1218,7 @@ Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp fo
 </footer><script src="https://garrett-kirsch.ceo/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
     if (document.body.className.includes("light")) {
+        document.documentElement.classList.add('dark');
         document.body.classList.add('dark');
         localStorage.setItem("pref-theme", 'dark');
     }
