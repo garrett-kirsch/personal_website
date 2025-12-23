@@ -141,8 +141,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Garrett."
-    subtitle: "I design systems."
-    content: "A computer engineer with a passion for systems. I am proficient in many areas of hardware and software, but my real love is low-level programming and computer architecture."
+    subtitle: "I love engineering."
+    content: "A computer engineer with a passion for chips. I love low-level software and high-level hardware, especially whenever the two intersect."
     image: /images/Profile_Picture.jpg
     bottomImage:
       enable: true
@@ -216,7 +216,8 @@ params:
         - "Python"
         - "Kotlin"
         - "OCaml"
-        - "(And always) a positive attitude and a firm handshake"
+        - "Positive attitude"
+        - "Infectious enthusiasm"
 
   # Experience
   experience:
