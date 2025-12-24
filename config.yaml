@@ -281,16 +281,7 @@ params:
           enable: false
         content: |
           Hold events for my residents every month under a strict budget. "On call" for several days in the semester - basically, if anything happens
-          I am called in to document the event and report it to my supervisor. Very eventful!
-        # featuredLink:
-        #   enable: true
-        #   url: "https://example.com"
-        # content: |
-        #   I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-        #   - Lead backend developer for a product.
-        #   - Created a frontend design for a product.
-
+          I am called in to document the event and report it to my supervisor.
 
   # Education
   education:
@@ -298,13 +289,25 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Master of Science in Engineering"
+        school:
+          name: "University of Pennsylvania, School of Engineering and Applied Sciences"
+          url: "https://www.seas.upenn.edu/"
+        date: "2025 - 2027"        
+        content: |-
+          Accelerated Masters in Electrical Engineering
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
       - title: "Bachelor of Science in Engineering"
         school:
           name: "University of Pennsylvania, School of Engineering and Applied Sciences"
           url: "https://www.seas.upenn.edu/"
-        date: "2023 - present"        
+        date: "2023 - 2027"        
         content: |-
-          Extracurricular Activities
+          Major in Computer Engineering
+          Extracurriculars
             - Penn Latin and Ballroom Dance
         featuredLink:
           enable: false
@@ -316,7 +319,7 @@ params:
           url: "http://www.walnuthillseagles.com/"
         date: "2019-2023"
         content: |-
-          Extracurricular Activities
+          Extracurriculars
             - Varsity tennis player for 2 years.
             - Flutist for my school's band for several years (as well as solo work).
             - Volunteer math tutor for local 8th graders.
