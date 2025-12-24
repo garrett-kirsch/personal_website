@@ -318,7 +318,7 @@ params:
         content: |-
           Extracurriculars
             - Varsity tennis player for 2 years.
-            - Flutist for my school's band for several years (as well as solo work).
+            - Flutist for the school band for several years (as well as solo work).
             - Volunteer math tutor for local 8th graders.
 
   # Achievements
@@ -366,16 +366,17 @@ params:
         
       - title: SRAM Core
         content: |
-          A 64-bit SRAM core built from the ground-up with VLSI tools and simulated using Ngspice. 
+          A 64-bit SRAM core built and tested using Cadence. 
           Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and data bus registers.
         image: /images/projects/sram.jpg
         featured:
           name: Report
-          link: https://docs.google.com/document/d/1qUxATIpc8Za0tYuLL_VTnB8aUX0jMXnSpnShS4VQIMk/edit?usp=sharing
+          link: https://docs.google.com/document/d/1-oDNgjXTj0oGTXFoosP5biuQfWVAuFmH6guDTq06igw/edit?tab=t.0
         badges:
           - "VLSI"
           - "Digital IC"
-          - "SPICE"
+          - "Cadence"
+          - "Memory"
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
