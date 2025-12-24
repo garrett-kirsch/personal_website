@@ -223,7 +223,7 @@ params:
   experience:
     enable: true
     title: "Experience"
-    index: false
+    # index: false
     items:
       - job: "Research Assistant"
         company: "CyberSavvy"
@@ -367,7 +367,7 @@ params:
       - title: SRAM Core
         content: |
           A 64-bit SRAM core built and tested using Cadence. 
-          Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and data bus registers.
+          Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and I/O data bus registers.
         image: /images/projects/sram.jpg
         featured:
           name: Report
