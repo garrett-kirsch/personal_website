@@ -225,63 +225,60 @@ params:
     title: "Experience"
     # index: false
     items:
-      - job: "Research Assistant"
-        company: "CyberSavvy"
-        companyUrl: "https://cybersavvy.seas.upenn.edu/"
+      - position: "Research Assistant"
+        company: 
+          name: "CyberSavvy"
+          url: "https://cybersavvy.seas.upenn.edu/"
         date: "May 2025 - present"
-        featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
-        info:
-          enable: false
-          content: " "
+        # info:
+        #   enable: false
+        #   content: " "
         content: |
           Setting up cloud communication between FPGAs for easy deployment and updates. 
           Extensive use of Docker and Kubernetes to containerize and manage applications. 
           Setting up systems such as NFS servers, QEMU VMs, and Tio device monitors.
 
-      - job: "Quality Assurance and Developer Relations Intern"
-        company: "Pieces for Developers"
-        companyUrl: "https://pieces.app"
-        date: "May 2024 - Aug 2024"
-        featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
-        info:
-          enable: false
-          content: " "
-        content: |
-          Testing for bugs in new releases and focusing heavily on the 
-          power-user experience. Identified several critical 
-          bugs and helped polish the app in preparation for a paid model.
+      # - job: "Quality Assurance and Developer Relations Intern"
+      #   company: "Pieces for Developers"
+      #   companyUrl: "https://pieces.app"
+      #   date: "May 2024 - Aug 2024"
+      #   featuredLink:
+      #     enable: false
+      #     name: "View the project"
+      #     url: "https://example.com"
+      #   info:
+      #     enable: false
+      #     content: " "
+      #   content: |
+      #     Testing for bugs in new releases and focusing heavily on the 
+      #     power-user experience. Identified several critical 
+      #     bugs and helped polish the app in preparation for a paid model.
         
-      - job: "Teaching Assistant"
-        company: "UPenn - SEAS"
-        companyUrl: "https://www.upenn.edu/"
-        date: "Aug 2024 - Dec 2024"
-        featuredLink:
-          enable: true
-          url: "https://www.seas.upenn.edu/~cis2400/24fa/"
-        info:
-          enable: false
-          content: 
-        content: |
-          Held recitations and office hours for CIS 2400 Intro to Computer Systems, 
-          a bottom-up course covering transistors, logic gates, boolean algebra, assembly, and C. 
-          Created an additional conceptual office hours that I taught during the weekend.
+      # - job: "Teaching Assistant"
+      #   company: "UPenn - SEAS"
+      #   companyUrl: "https://www.upenn.edu/"
+      #   date: "Aug 2024 - Dec 2024"
+      #   featuredLink:
+      #     enable: true
+      #     url: "https://www.seas.upenn.edu/~cis2400/24fa/"
+      #   info:
+      #     enable: false
+      #     content: 
+      #   content: |
+      #     Held recitations and office hours for CIS 2400 Intro to Computer Systems, 
+      #     a bottom-up course covering transistors, logic gates, boolean algebra, assembly, and C. 
+      #     Created an additional conceptual office hours that I taught during the weekend.
           
 
-      - job: "Residential Advisor"
-        company: "UPenn - CHAS"
-        companyUrl: "https://www.upenn.edu/"
-        date: "Aug 2024 - present"
-        info:
-          enable: false
-        content: |
-          Hold events for my residents every month under a strict budget. "On call" for several days in the semester - basically, if anything happens
-          I am called in to document the event and report it to my supervisor.
+      # - job: "Residential Advisor"
+      #   company: "UPenn - CHAS"
+      #   companyUrl: "https://www.upenn.edu/"
+      #   date: "Aug 2024 - present"
+      #   info:
+      #     enable: false
+      #   content: |
+      #     Hold events for my residents every month under a strict budget. "On call" for several days in the semester - basically, if anything happens
+      #     I am called in to document the event and report it to my supervisor.
 
   # Education
   education:
