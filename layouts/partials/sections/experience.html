@@ -1,12 +1,12 @@
-{{ if .Site.Params.experience.enable | default false }}
+{{ if site.Params.experience.enable }}
 <section id="experience" class="py-5">
     <div class="container">
-        <h3 class="text-center">{{ .Site.Params.experience.title | default "Experience" }}</h3>
+        <h3 class="text-center">{{ site.Params.experience.title | default "Experience" }}</h3>
         <div class="row justify-content-center py-5">
-            {{ $indexMenu := .Site.Params.experience.index }}
-            {{ range $index, $element := .Site.Params.experience.items }}
+            {{ $indexMenu := site.Params.experience.index }}
+            {{ range $index, $element := site.Params.experience.items }}
             <div class="col-12 p-0">
-                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                <div class="row align-items-center justify-content-center m-1 mb-4">
                     {{ if $indexMenu }}
                     <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
                         <div class="py-2">
@@ -26,28 +26,26 @@
                                 <h5 class="card-title">{{ .job }}</h5>
                                 
                                 {{ if .company.url }}
-                                <a href="{{ .company }}" target="_blank">
-                                    <h6>
-                                    {{ .company.name }}
-                                    </h6>
+                                <a href="{{ .company.url }}" target="_blank">
+                                    <h6 class="mb-0">{{ .company.name }}</h6>
                                 </a>
                                 {{ else }}
-                                {{ .company.name }}
+                                <h6>{{ .company.name }}</h6>
                                 {{ end }}
 
                                 {{ if .position }}
                                 <div class="py-1">
-                                    {{ .position }}
+                                    <strong>{{ .position }}</strong>
                                 </div>
                                 {{ end }}
 
                                 <div class="py-1 experience-content">
-                                    {{ .content | markdownify}}
+                                    {{ .content | markdownify }}
                                 </div>
 
                                 {{ if .featuredLink.enable }}
                                 <div class="py-1">
-                                    <a href="{{ .featuredLink.url }}" class="btn">
+                                    <a href="{{ .featuredLink.url }}" class="btn btn-outline-primary btn-sm">
                                         {{ .featuredLink.name | default "Featured" }}
                                     </a>
                                 </div>
