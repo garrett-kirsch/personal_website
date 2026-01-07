@@ -238,47 +238,34 @@ params:
           Extensive use of Docker and Kubernetes to containerize and manage applications. 
           Setting up systems such as NFS servers, QEMU VMs, and Tio device monitors.
 
-      # - job: "Quality Assurance and Developer Relations Intern"
-      #   company: "Pieces for Developers"
-      #   companyUrl: "https://pieces.app"
-      #   date: "May 2024 - Aug 2024"
-      #   featuredLink:
-      #     enable: false
-      #     name: "View the project"
-      #     url: "https://example.com"
-      #   info:
-      #     enable: false
-      #     content: " "
-      #   content: |
-      #     Testing for bugs in new releases and focusing heavily on the 
-      #     power-user experience. Identified several critical 
-      #     bugs and helped polish the app in preparation for a paid model.
+      - position: "Quality Assurance and Developer Relations Intern"
+        company: 
+          name: "Pieces for Developers"
+          url: "https://pieces.app"
+        date: "May 2024 - Aug 2024"
+        content: |
+          Testing for bugs in new releases and focusing heavily on the 
+          power-user experience. Identified several critical 
+          bugs and helped polish the app in preparation for a paid model.
         
-      # - job: "Teaching Assistant"
-      #   company: "UPenn - SEAS"
-      #   companyUrl: "https://www.upenn.edu/"
-      #   date: "Aug 2024 - Dec 2024"
-      #   featuredLink:
-      #     enable: true
-      #     url: "https://www.seas.upenn.edu/~cis2400/24fa/"
-      #   info:
-      #     enable: false
-      #     content: 
-      #   content: |
-      #     Held recitations and office hours for CIS 2400 Intro to Computer Systems, 
-      #     a bottom-up course covering transistors, logic gates, boolean algebra, assembly, and C. 
-      #     Created an additional conceptual office hours that I taught during the weekend.
+      - position: "Teaching Assistant"
+        company: 
+          name: "UPenn - SEAS"
+          url: "https://www.upenn.edu/"
+        date: "Aug 2024 - Dec 2024"
+        content: |
+          Held recitations and office hours for CIS 2400 Intro to Computer Systems, 
+          a bottom-up course covering transistors, logic gates, boolean algebra, assembly, and C. 
+          Created an additional conceptual office hours that I taught during the weekend.
           
-
-      # - job: "Residential Advisor"
-      #   company: "UPenn - CHAS"
-      #   companyUrl: "https://www.upenn.edu/"
-      #   date: "Aug 2024 - present"
-      #   info:
-      #     enable: false
-      #   content: |
-      #     Hold events for my residents every month under a strict budget. "On call" for several days in the semester - basically, if anything happens
-      #     I am called in to document the event and report it to my supervisor.
+      - position: "Residential Advisor"
+        company: 
+          name: "UPenn - CHAS"
+          url: "https://www.upenn.edu/"
+        date: "Aug 2024 - present"
+        content: |
+          Hold events for my residents every month under a strict budget. "On call" for several days in the semester - basically, if anything happens
+          I am called in to document the event and report it to my supervisor.
 
   # Education
   education:
