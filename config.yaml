@@ -230,6 +230,9 @@ params:
           name: "CyberSavvy"
           url: "https://cybersavvy.seas.upenn.edu/"
         date: "May 2025 - present"
+        # info:
+        #   enable: false
+        #   content: " "
         content: |
           Setting up cloud communication between FPGAs for easy deployment and updates. 
           Extensive use of Docker and Kubernetes to containerize and manage applications. 
