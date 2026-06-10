@@ -1,13 +1,19 @@
 # BUILD STAGE
 FROM ubuntu:22.04 AS builder
-
 WORKDIR /home/
 
 # Install dependencies
 RUN apt update && apt install -y \
     git \
-    hugo \
-	vim
+    wget \
+    vim
+
+# Install Hugo (modern version)
+ARG HUGO_VERSION=0.147.0
+RUN wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz \
+    && tar -xzf hugo.tar.gz \
+    && mv hugo /usr/local/bin/hugo \
+    && rm hugo.tar.gz
 
 # Create new Hugo site
 RUN hugo new site personal_website --format="yaml"
