@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "Garrett Kirsch"
 theme: "hugo-profile"
 
+
 canonifyURLs: true
 relativeURLs: false
 
