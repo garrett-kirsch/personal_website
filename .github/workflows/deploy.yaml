@@ -14,7 +14,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Build builder image with Docker Compose
-        run: docker compose build --no-cache --pull hugo
+        run: |
+          docker rmi personal_website_builder || true
+          docker compose build --no-cache --pull hugo
       - name: Debug - check config inside container
         run: |
           docker compose run --name hugo_debug hugo cat /home/personal_website/config.yaml
