@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Build builder image with Docker Compose
-        run: docker compose build --no-cache hugo
+        run: docker compose build --no-cache --pull hugo
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --no-deps --name hugo_builder hugo \
