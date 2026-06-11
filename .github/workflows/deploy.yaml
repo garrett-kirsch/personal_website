@@ -1,41 +1,31 @@
 name: Deploy Hugo site to GitHub Pages
-
 on:
   push:
     branches:
       - main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
       - name: Build builder image with Docker Compose
         run: docker compose build hugo
-
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --name hugo_builder hugo \
             hugo --baseURL "https://garrett-kirsch.ceo" \
                   --destination /home/personal_website/public
-
       - name: Copy public/ from builder container
         run: |
           docker cp hugo_builder:/home/personal_website/public ./public
           docker rm -f hugo_builder
-
       - name: Add .nojekyll
         run: touch ./public/.nojekyll
-
       - name: Add CNAME file
         run: echo "garrett-kirsch.ceo" > ./public/CNAME
-
-
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
