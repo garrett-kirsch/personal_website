@@ -18,23 +18,18 @@ RUN wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HU
 # Create new Hugo site
 RUN hugo new site personal_website --format="yaml"
 
-# Move into Hugo site directory
 WORKDIR /home/personal_website
 
 # Copy local content
 COPY . .
 
+# Clone theme AFTER copy so COPY can't overwrite it
 RUN mkdir -p themes && \
-    cd themes && \
-    git clone https://github.com/gurusabarish/hugo-profile.git
-
-# No RUN hugo here - the workflow runs Hugo
+    git clone https://github.com/gurusabarish/hugo-profile.git themes/hugo-profile
 
 # SERVE STAGE
 FROM nginx:alpine AS server
 
-# Copy generated site from builder
 COPY --from=builder /home/personal_website/public /usr/share/nginx/html
 
-# Expose the default HTTP port
 EXPOSE 80
