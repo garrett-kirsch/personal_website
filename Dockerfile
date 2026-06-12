@@ -22,7 +22,6 @@ WORKDIR /home/personal_website
 
 # Copy local content
 COPY . .
-RUN echo "=== hugo.yaml contents ===" && cat hugo.yaml
 
 # Clone theme AFTER copy so COPY can't overwrite it
 RUN mkdir -p themes && \
