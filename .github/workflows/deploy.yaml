@@ -13,33 +13,28 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Build builder image with Docker Compose
         run: |
           docker rmi personal_website_builder || true
           docker compose build --no-cache --pull hugo
-      - name: Debug - check config inside container
-        run: |
-          docker compose run --name hugo_debug hugo cat /home/personal_website/config.yaml
-          docker rm -f hugo_debug
-      - name: Debug - check Hugo version
-        run: docker compose run --rm hugo hugo version
-      - name: Debug - check built output
-        run: cat ./public/index.html | grep -o "in progress.*" | head -5
-      - name: Debug - check config in container before build
-        run: |
-          docker compose run --rm hugo sh -c "cat /home/personal_website/config.yaml | grep -A 10 'Who I am'"
+
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --no-deps --name hugo_builder hugo \
-            sh -c "hugo --baseURL 'https://garrett-kirsch.ceo' --destination /home/personal_website/public && grep -o 'in progress.*' /home/personal_website/public/index.html || echo 'NOT FOUND IN CONTAINER'"
+            sh -c "ls themes/ && hugo --baseURL 'https://garrett-kirsch.ceo' --destination /home/personal_website/public"
+
       - name: Copy public/ from builder container
         run: |
           docker cp hugo_builder:/home/personal_website/public ./public
           docker rm -f hugo_builder
+
       - name: Add .nojekyll
         run: touch ./public/.nojekyll
+
       - name: Add CNAME file
         run: echo "garrett-kirsch.ceo" > ./public/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
