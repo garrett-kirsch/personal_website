@@ -22,7 +22,7 @@ jobs:
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --no-deps --name hugo_builder hugo \
-            sh -c "ls themes/ && hugo --baseURL 'https://garrett-kirsch.ceo' --destination /home/personal_website/public"
+            sh -c "ls themes/hugo-profile/ && hugo --baseURL 'https://garrett-kirsch.ceo' --destination /home/personal_website/public"
 
       - name: Copy public/ from builder container
         run: |
