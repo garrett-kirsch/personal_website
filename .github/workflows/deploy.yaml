@@ -23,6 +23,8 @@ jobs:
           docker rm -f hugo_debug
       - name: Debug - check Hugo version
         run: docker compose run --rm hugo hugo version
+      - name: Debug - check built output
+        run: cat ./public/index.html | grep -o "in progress.*" | head -5
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --no-deps --name hugo_builder hugo \
