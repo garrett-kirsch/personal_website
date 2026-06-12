@@ -22,8 +22,8 @@ jobs:
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --no-deps --name hugo_builder hugo \
-            sh -c "pwd && ls && cat config.yaml | head -5 && hugo --baseURL 'https://garrett-kirsch.ceo' --destination /home/personal_website/public"
-      
+            sh -c "cat hugo.yaml | grep -A 5 'Who I am' || echo 'NOT FOUND IN HUGO.YAML' && hugo --baseURL 'https://garrett-kirsch.ceo' --destination /home/personal_website/public"
+
       - name: Copy public/ from builder container
         run: |
           docker cp hugo_builder:/home/personal_website/public ./public
