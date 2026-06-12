@@ -22,7 +22,7 @@ jobs:
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --no-deps --name hugo_builder hugo \
-            sh -c "cat hugo.yaml | grep -A 5 'Who I am' || echo 'NOT FOUND IN HUGO.YAML' && hugo --baseURL 'https://garrett-kirsch.ceo' --destination /home/personal_website/public"
+            sh -c "cat hugo.yaml | grep -A 5 'Who I am' || echo 'NOT FOUND IN HUGO.YAML' && hugo --baseURL 'https://garrett-kirsch.com' --destination /home/personal_website/public"
 
       - name: Copy public/ from builder container
         run: |
