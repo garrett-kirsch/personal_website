@@ -140,8 +140,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Garrett."
-    subtitle: "I love engineering."
-    content: "A computer engineer with a passion for chips. I love low-level software and high-level hardware, especially whenever the two intersect."
+    subtitle: "I build chips."
+    content: "A computer engineer with a passion for chip design. I love low-level software and high-level hardware, especially whenever the two intersect."
     image: /images/Profile_Picture.jpg
     bottomImage:
       enable: true
@@ -196,20 +196,14 @@ params:
       enable: true
       title: "Tools and Programming Languages:"
       items:
+        - "Cadence"
         - "Docker"
         - "Kubernetes"
         - "SystemVerilog"
         - "Java"
-        - "SPICE"
-        - "Electric VLSI"
         - "git"
-        - "Bash scripting"
-        - "Linux CLI"
+        - "Unix"
         - "Python"
-        - "Kotlin"
-        - "OCaml"
-        - "Positive attitude"
-        - "Infectious enthusiasm"
 
   # Experience
   experience:
