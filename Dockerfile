@@ -28,8 +28,7 @@ RUN mkdir -p themes && \
     cd themes && \
     git clone https://github.com/gurusabarish/hugo-profile.git
 
-# Final build
-RUN hugo
+# No RUN hugo here - the workflow runs Hugo
 
 # SERVE STAGE
 FROM nginx:alpine AS server
