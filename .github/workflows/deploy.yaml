@@ -26,7 +26,7 @@ jobs:
 
       - name: Copy public/ from builder container
         run: |
-          docker cp hugo_builder:/home/personal_website/public ./public
+          docker cp hugo_builder:/home/personal_website/public/. ./public
           docker rm -f hugo_builder
 
       - name: Debug - verify public output
