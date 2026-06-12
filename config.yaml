@@ -3,7 +3,6 @@ languageCode: "en-us"
 title: "Garrett Kirsch"
 theme: "hugo-profile"
 
-
 canonifyURLs: true
 relativeURLs: false
 
@@ -31,7 +30,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-
 
 Menus:
   main:
