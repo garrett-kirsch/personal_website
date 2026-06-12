@@ -25,6 +25,9 @@ jobs:
         run: docker compose run --rm hugo hugo version
       - name: Debug - check built output
         run: cat ./public/index.html | grep -o "in progress.*" | head -5
+      - name: Debug - check config in container before build
+        run: |
+          docker compose run --rm hugo sh -c "cat /home/personal_website/config.yaml | grep -A 10 'Who I am'"
       - name: Run Hugo build with proper baseURL
         run: |
           docker compose run --no-deps --name hugo_builder hugo \
