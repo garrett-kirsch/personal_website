@@ -1,4 +1,5 @@
-{{ if site.Params.experience.enable }}
+{{ if .Site.Params.experience.enable | default false }}
+{{- $experience := .Site.Language.Params.experience | default .Site.Params.experience -}}
 <section id="experience" class="py-5">
     <div class="container">
         <h3 class="text-center">{{ site.Params.experience.title | default "Experience" }}</h3>
@@ -18,7 +19,7 @@
                     {{ end }}
 
                     <div class="col-md-9">
-                        <div class="card border shadow-sm">
+                        <div class="card">
                             <div class="card-body">
                                 <div class="float-end">
                                     <small>{{ .date }}</small>
