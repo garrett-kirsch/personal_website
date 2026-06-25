@@ -196,6 +196,21 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Mini TPU
+        content: |
+          Custom mini-TPU to perform matrix multiplication, loosely based off the original Google TPU architecture.
+          Massive digital design with over **70,000 transistors**, all done with manual layout and no standard cell libraries.
+        image: /images/projects/cpu.jpg
+        # featured:
+        #   name: Repo
+        #   link: https://github.com/garrett-kirsch/CIS_5710
+        badges:
+          - "SystemVerilog"
+          - "RTL"
+          - "Computer Architecture"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/garrett-kirsch/CIS_5710
       - title: RISCV Processor
         content: |
           A multicycle, pipelined RISCV processor built using SystemVerilog. 
