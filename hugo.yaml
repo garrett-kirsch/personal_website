@@ -168,29 +168,15 @@ params:
     title: "About Me"
     #image: "/images/me.png"
     content: |-
-      **Who I am:**
+      
+      I was born and raised in Cincinnati, the greatest city in the world, and I am an avid Bengals fan,
+      Formula One enthusiast, and NBA die-hard.
 
-      I was born and raised in Cincinnati, home of the oldest professional baseball team, 
-      weird chilli that only the locals appreciate, and a football franchise that makes me pull out my 
-      hair every year. While Cincy is greatest city in the world, it's not exactly a tech hub and I 
-      wasn't exposed to any engineering until my senior year of high school. However, that 
-      didn't stop me from loving it
+      I am a CMPE undergrad and EE accelerated master's student at the University of Pennsylvania with a
+      strong interest in chip design. My academic
+      background includes both hardware and software, but I mostly focus on the former.
 
       [in progress]
-
-      **What I Do:**
-
-      I am a computer engineering student at the University of Pennsylvania with a
-      strong interest in chip design and computer systems. My academic
-      background bridges both hardware and software, and I am particularly
-      passionate about working at the intersection of these fields. Although my
-      studies often involve late nights troubleshooting in the lab or analyzing
-      waveforms, the experience of bringing innovative projects to life continually
-      fuels my desire to push boundaries and contribute new ideas to the field.
-
-      I am currently working full-time in the [CyberSavvy Lab](https://cybersavvy.seas.upenn.edu/) under Professors Jinf
-      Li and Andre DeHon, where I am responsible for turning our FPGAs into cloud resources 
-      using Docker and Kubernetes.
       
     skills:
       enable: true
@@ -205,6 +191,87 @@ params:
         - "Unix"
         - "Python"
 
+  # Projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: RISCV Processor
+        content: |
+          A multicycle, pipelined RISCV processor built using SystemVerilog. 
+          Implements a cache with the Arm AXI4-Lite protocol for data and instruction memory.
+        image: /images/projects/cpu.jpg
+        # featured:
+        #   name: Repo
+        #   link: https://github.com/garrett-kirsch/CIS_5710
+        badges:
+          - "SystemVerilog"
+          - "RTL"
+          - "Computer Architecture"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/garrett-kirsch/CIS_5710
+        
+      - title: SRAM Core
+        content: |
+          A 64-bit SRAM core built and tested using Cadence. 
+          Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and I/O data bus registers.
+        image: /images/projects/sram.jpg
+        featured:
+          name: Report
+          link: https://docs.google.com/document/d/1-oDNgjXTj0oGTXFoosP5biuQfWVAuFmH6guDTq06igw/edit?tab=t.0
+        badges:
+          - "VLSI"
+          - "Digital IC"
+          - "Cadence"
+          - "Memory"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
+
+      - title: Music Transposer
+        content: |
+          Embedded systems project that takes in an input melody and outputs the same melody with a number of half-step shifts determined by the user. 
+          Includes an LCD screen that displays the shifted note. Programmed with bare metal C on the ATMega328PB.
+        image: /images/projects/piano.jpg
+        featured:
+          name: Demo
+          link: https://drive.google.com/file/d/1ngGfAtsrGlymLhpcTdSK29lmTKguykDP/view?usp=sharing
+        badges:
+          - "Embedded Systems"
+          - "Bare Metal C"
+          - "Low Level Graphics"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/upenn-embedded/final-project-s25-the-redeem-team
+
+      - title: Metal Detector
+        content: |
+          A custom metal detector using a PCB that I routed (not my best work), soldered (when I paid for my mistakes), and tuned myself. 
+          Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
+        image: /images/projects/metal_detector_pcb.jpg
+        featured:
+          name: Report
+          link: https://docs.google.com/document/d/1Ev00fLFrK_dnF9JuYy6zgi82zXWfDipZKQnROQgLdxA/edit?usp=sharing
+        badges:
+          - "Analog IC"
+          - "PCB Layout"
+          - "Soldering"
+          - "SPICE"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/HugoProfileV2
+      - title: 8-Bit Ripple-Carry Adder
+        content: An 8b RCA designed from scratch using VLSI tools and simulated using Ngspice. Tested for correctness and optimized for performance. 
+        image: /images/projects/Full_Adder.png
+        featured:
+          name: Report
+          link: https://docs.google.com/document/d/1jCyHxDtUqd9ptm8j6LoAcbKIrH7rGucXQMwGSG8OJ2g/edit?usp=sharing
+        badges:
+          - "VLSI"
+          - "Digital IC"
+          - "SPICE"
+  
   # Experience
   experience:
     enable: true
@@ -314,85 +381,85 @@ params:
         url: https://example.com
 
   # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: RISCV Processor
-        content: |
-          A multicycle, pipelined RISCV processor built using SystemVerilog. 
-          Implements a cache with the Arm AXI4-Lite protocol for data and instruction memory.
-        image: /images/projects/cpu.jpg
-        # featured:
-        #   name: Repo
-        #   link: https://github.com/garrett-kirsch/CIS_5710
-        badges:
-          - "SystemVerilog"
-          - "RTL"
-          - "Computer Architecture"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/garrett-kirsch/CIS_5710
+  # projects:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: RISCV Processor
+  #       content: |
+  #         A multicycle, pipelined RISCV processor built using SystemVerilog. 
+  #         Implements a cache with the Arm AXI4-Lite protocol for data and instruction memory.
+  #       image: /images/projects/cpu.jpg
+  #       # featured:
+  #       #   name: Repo
+  #       #   link: https://github.com/garrett-kirsch/CIS_5710
+  #       badges:
+  #         - "SystemVerilog"
+  #         - "RTL"
+  #         - "Computer Architecture"
+  #       links:
+  #         - icon: fab fa-github
+  #           url: https://github.com/garrett-kirsch/CIS_5710
         
-      - title: SRAM Core
-        content: |
-          A 64-bit SRAM core built and tested using Cadence. 
-          Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and I/O data bus registers.
-        image: /images/projects/sram.jpg
-        featured:
-          name: Report
-          link: https://docs.google.com/document/d/1-oDNgjXTj0oGTXFoosP5biuQfWVAuFmH6guDTq06igw/edit?tab=t.0
-        badges:
-          - "VLSI"
-          - "Digital IC"
-          - "Cadence"
-          - "Memory"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/converter
+  #     - title: SRAM Core
+  #       content: |
+  #         A 64-bit SRAM core built and tested using Cadence. 
+  #         Peripheral circuits include a two-phase clock, bit prechargers, row and column decoders, and I/O data bus registers.
+  #       image: /images/projects/sram.jpg
+  #       featured:
+  #         name: Report
+  #         link: https://docs.google.com/document/d/1-oDNgjXTj0oGTXFoosP5biuQfWVAuFmH6guDTq06igw/edit?tab=t.0
+  #       badges:
+  #         - "VLSI"
+  #         - "Digital IC"
+  #         - "Cadence"
+  #         - "Memory"
+  #       # links:
+  #       #   - icon: fab fa-github
+  #       #     url: https://github.com/gurusabarish/converter
 
-      - title: Music Transposer
-        content: |
-          Embedded systems project that takes in an input melody and outputs the same melody with a number of half-step shifts determined by the user. 
-          Includes an LCD screen that displays the shifted note. Programmed with bare metal C on the ATMega328PB.
-        image: /images/projects/piano.jpg
-        featured:
-          name: Demo
-          link: https://drive.google.com/file/d/1ngGfAtsrGlymLhpcTdSK29lmTKguykDP/view?usp=sharing
-        badges:
-          - "Embedded Systems"
-          - "Bare Metal C"
-          - "Low Level Graphics"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/upenn-embedded/final-project-s25-the-redeem-team
+  #     - title: Music Transposer
+  #       content: |
+  #         Embedded systems project that takes in an input melody and outputs the same melody with a number of half-step shifts determined by the user. 
+  #         Includes an LCD screen that displays the shifted note. Programmed with bare metal C on the ATMega328PB.
+  #       image: /images/projects/piano.jpg
+  #       featured:
+  #         name: Demo
+  #         link: https://drive.google.com/file/d/1ngGfAtsrGlymLhpcTdSK29lmTKguykDP/view?usp=sharing
+  #       badges:
+  #         - "Embedded Systems"
+  #         - "Bare Metal C"
+  #         - "Low Level Graphics"
+  #       links:
+  #         - icon: fab fa-github
+  #           url: https://github.com/upenn-embedded/final-project-s25-the-redeem-team
 
-      - title: Metal Detector
-        content: |
-          A custom metal detector using a PCB that I routed (not my best work), soldered (when I paid for my mistakes), and tuned myself. 
-          Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
-        image: /images/projects/metal_detector_pcb.jpg
-        featured:
-          name: Report
-          link: https://docs.google.com/document/d/1Ev00fLFrK_dnF9JuYy6zgi82zXWfDipZKQnROQgLdxA/edit?usp=sharing
-        badges:
-          - "Analog IC"
-          - "PCB Layout"
-          - "Soldering"
-          - "SPICE"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/HugoProfileV2
-      - title: 8-Bit Ripple-Carry Adder
-        content: An 8b RCA designed from scratch using VLSI tools and simulated using Ngspice. Tested for correctness and optimized for performance. 
-        image: /images/projects/Full_Adder.png
-        featured:
-          name: Report
-          link: https://docs.google.com/document/d/1jCyHxDtUqd9ptm8j6LoAcbKIrH7rGucXQMwGSG8OJ2g/edit?usp=sharing
-        badges:
-          - "VLSI"
-          - "Digital IC"
-          - "SPICE"
+  #     - title: Metal Detector
+  #       content: |
+  #         A custom metal detector using a PCB that I routed (not my best work), soldered (when I paid for my mistakes), and tuned myself. 
+  #         Design uses two oscillators, a mixer, several CS Amps, a CG Amp, and a CD Amp for output.
+  #       image: /images/projects/metal_detector_pcb.jpg
+  #       featured:
+  #         name: Report
+  #         link: https://docs.google.com/document/d/1Ev00fLFrK_dnF9JuYy6zgi82zXWfDipZKQnROQgLdxA/edit?usp=sharing
+  #       badges:
+  #         - "Analog IC"
+  #         - "PCB Layout"
+  #         - "Soldering"
+  #         - "SPICE"
+  #       # links:
+  #       #   - icon: fab fa-github
+  #       #     url: https://github.com/gurusabarish/HugoProfileV2
+  #     - title: 8-Bit Ripple-Carry Adder
+  #       content: An 8b RCA designed from scratch using VLSI tools and simulated using Ngspice. Tested for correctness and optimized for performance. 
+  #       image: /images/projects/Full_Adder.png
+  #       featured:
+  #         name: Report
+  #         link: https://docs.google.com/document/d/1jCyHxDtUqd9ptm8j6LoAcbKIrH7rGucXQMwGSG8OJ2g/edit?usp=sharing
+  #       badges:
+  #         - "VLSI"
+  #         - "Digital IC"
+  #         - "SPICE"
 
   # friends:
   #   enable: true
