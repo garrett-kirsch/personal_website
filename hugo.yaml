@@ -199,7 +199,7 @@ params:
       - title: Mini TPU
         content: |
           Custom mini-TPU to perform matrix multiplication, loosely based off the original Google TPU architecture.
-          Massive digital design with over **70,000 transistors**, all done with manual layout and no standard cell libraries.
+          Massive digital design with over 70,000 transistors, all done with manual layout and no standard cell libraries.
         image: /images/projects/final_chip_image_small.jpg
         # featured:
         #   name: Repo
