@@ -164,7 +164,7 @@ params:
 
   # About
   about:
-    enable: true
+    enable: false
     title: "About Me"
     #image: "/images/me.png"
     content: |-
